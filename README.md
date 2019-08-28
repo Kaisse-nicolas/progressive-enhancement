@@ -1,3 +1,5 @@
+# progressive-enhancement
+
 The Chinese farmer
 
 Projet réalisé par Kaisse Nicolas à Becode Bruxelles
