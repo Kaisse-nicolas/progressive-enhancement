@@ -1,0 +1,17 @@
+p {
+  font-family : Arial , sans-serif ;
+  letter-spacing: 3px;
+  color: #4C403D;
+}
+a {
+  background-color: red;
+  color: white;
+  padding: 0,5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  background-color: #555;
