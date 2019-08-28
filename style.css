@@ -15,3 +15,11 @@ a:visited {
 }
 a:hover {
   background-color: #555;
+}
+body {
+  width: 90%;
+  margin: auto;
+}
+blockquote {
+  margin: 0 25% 0 25%;
+}
