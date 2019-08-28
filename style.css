@@ -19,7 +19,34 @@ a:hover {
 body {
   width: 90%;
   margin: auto;
+  background: -webkit-radial-gradient(rgb(147, 215, 147), rgb(106, 130, 107));
+  background: radial-gradient(rgb(147, 215, 147), rgb(106, 130, 107));
+  background-image: url("mur.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
 }
-blockquote {
+q{
   margin: 0 25% 0 25%;
+  display: inline-block;
+  font-size: 160%;
+  font-style: italic;
+  background-color: #C0C0C0;
+  border-left:3px solid firebrick;
+  text-align: justify;
+}
+blockquote p{
+  padding: 80px 0px 80px 30px
+}
+.villa {
+  border-left:3px solid blue;
+}
+ header:first-child h1{
+  background-color: yellow;
+}
+.good{
+  color: green;
+}
+.bad{
+  color: red;
 }
