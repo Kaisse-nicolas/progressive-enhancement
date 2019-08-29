@@ -87,4 +87,14 @@ body p:nth-child(1){
 }
 .papaya img{
   float: left;
+  margin-right: 20px;
+}
+.mamaya img{
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+.mamaya {
+  clear:both
 }
