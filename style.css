@@ -1,100 +1,141 @@
-* {
-  font-family: 'Open Sans', sans-serif;
+*
+{
+	font-family: 'Open Sans', sans-serif;
 }
-p {
-  font-family : Arial , sans-serif ;
-  letter-spacing: 3px;
-  color: #4C403D;
+
+p
+{
+	font-family : Arial , sans-serif ;
+	letter-spacing: 3px;
+	color: #4C403D;
 }
-a {
-  background-color: red;
-  color: white;
-  padding: 0,5em 1em;
-  text-decoration: none;
-  text-transform: uppercase;
+
+a
+{
+	background-color: red;
+	color: white;
+	padding: 0,5em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
 }
-a:visited {
-  color: white;
+
+a:visited
+{
+	color: white;
 }
-a:hover {
-  background-color: #555;
+
+a:hover
+{
+	background-color: #555;
 }
-body {
-  width: 90%;
-  margin: auto;
-  background: -webkit-radial-gradient(rgb(147, 215, 147), rgb(106, 130, 107));
-  background: radial-gradient(rgb(147, 215, 147), rgb(106, 130, 107));
-  background-image: url("mur.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: cover;
+
+body
+{
+	width: 90%;
+	margin: auto;
+	background: -webkit-radial-gradient(rgb(147, 215, 147), rgb(106, 130, 107));
+	background: radial-gradient(rgb(147, 215, 147), rgb(106, 130, 107));
+	background-image: url("mur.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: cover;
 }
-q{
-  margin: 0 25% 0 25%;
-  display: inline-block;
-  font-size: 160%;
-  font-style: italic;
-  background-color: #C0C0C0;
-  border-left:3px solid firebrick;
-  text-align: justify;
+
+q
+{
+	margin: 0 25% 0 25%;
+	display: inline-block;
+	font-size: 160%;
+	font-style: italic;
+	background-color: #C0C0C0;
+	border-left:3px solid firebrick;
+	text-align: justify;
 }
-blockquote p{
-  padding: 80px 0px 80px 30px
+
+blockquote p
+{
+padding: 80px 0px 80px 30px}
+
+.villa
+{
+	border-left:3px solid blue;
 }
-.villa {
-  border-left:3px solid blue;
+
+header:first-child h1
+{
+	background-color: yellow;
 }
- header:first-child h1{
-  background-color: yellow;
+
+.good
+{
+	color: green;
+	text-transform: capitalize;
 }
-.good{
-  color: green;
-  text-transform: capitalize;
+
+.bad
+{
+	color: red;
+	text-transform: capitalize;
 }
-.bad{
-  color: red;
-  text-transform: capitalize;
+
+table tr:nth-child(odd)
+{
+	background-color: white;
 }
-table tr:nth-child(odd){
-  background-color: white;
+
+table tr:nth-child(even)
+{
+	background-color: grey;
 }
-table tr:nth-child(even){
-  background-color: grey;
+
+.papaya li:nth-child(1)
+{
+	padding: 20px 0px 20px 0px;
+	background-image: url(bien.png) ;
+	background-repeat:no-repeat;
+	background-position: 82%;
 }
-.papaya li:nth-child(1){
-  padding: 20px 0px 20px 0px;
-  background-image: url(bien.png) ;
-  background-repeat:no-repeat;
-  background-position: 82%;
+
+.papaya li:nth-child(2)
+{
+	padding: 20px 0px 20px 0px;
+	background-image: url(mal.png) ;
+	background-repeat:no-repeat;
+	background-position: 82%;
 }
-.papaya li:nth-child(2){
-  padding: 20px 0px 20px 0px;
-  background-image: url(mal.png) ;
-  background-repeat:no-repeat;
-  background-position: 82%;
+
+.papaya li:nth-child(3)
+{
+	padding: 20px 0px 20px 0px;
+	background-image: url(chat.png) ;
+	background-repeat:no-repeat;
+	background-position: 82%;
 }
-.papaya li:nth-child(3){
-  padding: 20px 0px 20px 0px;
-  background-image: url(chat.png) ;
-  background-repeat:no-repeat;
-  background-position: 82%;
+
+.papaya li:nth-child(4)
+{
+	padding: 20px 0px 20px 0px;
 }
-.papaya li:nth-child(4){
-  padding: 20px 0px 20px 0px;
+
+body p:nth-child(1)
+{
+	font-weight:bold;
 }
-body p:nth-child(1){
-  font-weight:bold;
+
+.papaya img
+{
+	float: left;
+	margin-right: 20px;
 }
-.papaya img{
-  float: left;
-  margin-right: 20px;
+
+.mamaya img
+{
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
 }
-.mamaya img{
-  float: right;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 50px;
-}
-.mamaya {
-  clear:both
-}
+
+.mamaya
+{
+clear:both}
